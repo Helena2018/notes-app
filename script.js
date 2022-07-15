@@ -25,5 +25,10 @@ function addNewNote(text = '') {
     note.remove()
   })
 
+  editBtn.addEventListener('click', () => {
+    main.classList.toggle('hidden')
+    textArea.classList.toggle('hidden')
+  })
+
   document.body.appendChild(note)
 }
