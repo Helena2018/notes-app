@@ -53,6 +53,10 @@ body {
   cursor: pointer;
 }
 
+.main {
+  padding: 20px;
+}
+
 .note textarea {
   outline: none;
   border: none;
