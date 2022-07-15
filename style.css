@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #D3CCE3;
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-wrap: wrap;
@@ -50,4 +51,18 @@ body {
   font-size: 1rem;
   margin-left: 0.5rem;
   cursor: pointer;
+}
+
+.note textarea {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 400px;
+  padding: 2rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+}
+
+.hidden {
+  display: none;
 }
