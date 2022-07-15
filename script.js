@@ -1,5 +1,6 @@
 const addBtn = document.getElementById('add')
 
+// sessionStorage (cleared after closed browser)
 const notes = JSON.parse(localStorage.getItem('notes'))
 
 if(notes) {
